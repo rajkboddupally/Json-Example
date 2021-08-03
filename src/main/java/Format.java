@@ -12,6 +12,7 @@ public class Format {
         int[] scores = {12, 3, 123, 456, 232};
         Player player = new Player("virat", "cricket", 32, 123, scores);
         ObjectMapper om = new ObjectMapper();
+
         //print as string
         System.out.println(om.writeValueAsString(player));
 
